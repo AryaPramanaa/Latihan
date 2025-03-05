@@ -4,7 +4,8 @@ if ($_GET['proses'] == "tambah") {
         if(isset($_POST['submit'])){
             include "koneksi.php";
 
-            $query = "INSERT INTO dosen VALUES('', '$_POST[nip]','$_POST[namaDosen]','$_POST[email]','$_POST[prodiId]','$_POST[notelp]','$_POST[alamat]')";
+
+            $query = "INSERT INTO dosen(nip,namaDosen,email,prodiId,notelp,alamat) VALUES('$_POST[nip]','$_POST[namaDosen]','$_POST[email]','$_POST[prodiId]','$_POST[notelp]','$_POST[alamat]')";
             $sql = mysqli_query($db, $query);
 
             if($sql){

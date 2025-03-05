@@ -4,7 +4,7 @@ if ($_GET['proses'] == "tambah") {
         if(isset($_POST['submit'])){
             include "koneksi.php";
 
-            $query = "INSERT INTO kategori VALUES('', '$_POST[nama_kategori]')";
+            $query = "INSERT INTO kategori(nama_kategori) VALUES('$_POST[nama_kategori]')";
             $sql = mysqli_query($db, $query);
 
             if($sql){

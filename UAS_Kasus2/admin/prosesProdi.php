@@ -4,7 +4,7 @@
         if (isset($_POST['submit'])) { 
             include "koneksi.php";
             
-            $query = "INSERT INTO prodi VALUES('','$_POST[namaProdi]','$_POST[jenjangStudi]','$_POST[keterangan]')";
+            $query = "INSERT INTO prodi(namaProdi,jenjangStudi,keterangan) VALUES('$_POST[namaProdi]','$_POST[jenjangStudi]','$_POST[keterangan]')";
             $sql = mysqli_query($db, $query);
 
             if($sql){
