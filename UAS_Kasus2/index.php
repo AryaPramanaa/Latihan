@@ -59,13 +59,14 @@ https://templatemo.com/tm-586-scholar
                         <!-- ***** Serach Start ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
-                            <li class="scroll-to-section"><a href="index.php">Beranda1234</a></li>
+                            <li class="scroll-to-section"><a href="index.php">Beranda1234git</a></li>
                             <li class="scroll-to-section"><a href="index.php?p=mahasiswa">Mahasiswa</a></li>
                             <li class="scroll-to-section"><a href="index.php?p=prodi">Prodi</a></li>
                             <li class="scroll-to-section"><a href="index.php?p=dosen">Dosen</a></li>
                             <li class="scroll-to-section"><a href="index.php?p=matakuliah">Mata Kuliah</a></li>
                             <li class="scroll-to-section"><a href="index.php?p=ruangan">ruangan</a></li>
                             <li class="scroll-to-section"><a href="index.php?p=buku">Buku</a></li>
+                            <li class="scroll-to-section"><a href="index.php?p=buku">prodi</a></li>
                             <li class="scroll-to-section"><a href="login.php">Login</a></li>
                         </ul>
                         <a class='menu-trigger'>
