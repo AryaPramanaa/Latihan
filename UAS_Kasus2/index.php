@@ -61,7 +61,7 @@ https://templatemo.com/tm-586-scholar
                         <ul class="nav">
                             <li class="scroll-to-section"><a href="index.php">Home</a></li>
                             <li class="scroll-to-section"><a href="index.php?p=mahasiswa">Mahasiswa</a></li>
-                            <li class="scroll-to-section"><a href="index.php?p=prodi">Prodi</a></li>
+                            <li class="scroll-to-section"><a href="index.php?p=prodi">Prodi - prodi</a></li>
                             <li class="scroll-to-section"><a href="index.php?p=dosen">Dosen</a></li>
                             <li class="scroll-to-section"><a href="index.php?p=matakuliah">Mata Kuliah</a></li>
                             <li class="scroll-to-section"><a href="index.php?p=ruangan">ruangan</a></li>
